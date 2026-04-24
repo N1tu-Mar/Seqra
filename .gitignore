@@ -1,0 +1,42 @@
+# 🔒 Virtual environment
+.venv/
+venv/
+env/
+
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧠 Bytecode + cache folders anywhere
+**/__pycache__/
+
+# 📦 Environment config
+.env
+.env.*
+
+# 🧪 Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🧾 Logs
+*.log
+
+# 🖥️ OS junk
+.DS_Store
+Thumbs.db
+
+# 📦 Node / frontend
+node_modules/
+dist/
+build/
+
+# ⚙️ IDE stuff
+.vscode/
+.idea/
+
+# 📝 Misc
+*.sqlite3
+*.db
