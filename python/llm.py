@@ -77,7 +77,6 @@ def _fallback_parse(query: str) -> dict:
 
 
 def _rule_summary(candidate: dict) -> str:
-    seq = candidate.get("sequence", "")
     charge = candidate.get("charge", 0)
     mic = candidate.get("mic_estimate", 64)
     hemolysis = candidate.get("hemolysis", "unknown")

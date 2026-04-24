@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+# Load environment variables
+if [ -f .env ]; then
+    export $(grep -v '^#' .env | xargs)
+fi
+
 echo "=== Seqra MVP ==="
 
 # Backend
